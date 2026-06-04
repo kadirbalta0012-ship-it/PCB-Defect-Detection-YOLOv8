@@ -25,7 +25,7 @@ with st.sidebar:
     st.markdown("## 🛠️ Sistem Bilgileri")
     st.info("**Model Architecture:** YOLOv8n (YOLOv8 Nano)\n\n**Framework:** PyTorch & Streamlit\n\n**Dataset:** 6 Sınıflı PCB Hasar Seti")
     st.write("---")
-    st.markdown("### 📊 Doğruluk Metrikler")
+    st.markdown("### 📊 Doğruluk Metrikleri")
     
     st.success("🎯 **Genel mAP50:** %89.8")
     st.write("---")
