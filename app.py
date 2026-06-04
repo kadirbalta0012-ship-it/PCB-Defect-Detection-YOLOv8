@@ -20,7 +20,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- SOL PANEL (Sidebar - Proje Künyesi) ---
+
 with st.sidebar:
     st.markdown("## 🛠️ Sistem Bilgileri")
     st.info("**Model Architecture:** YOLOv8n (YOLOv8 Nano)\n\n**Framework:** PyTorch & Streamlit\n\n**Dataset:** 6 Sınıflı PCB Hasar Seti")
@@ -36,7 +36,7 @@ st.title(" Yapay Zeka Tabanlı PCB Hasar Tespit Sistemi")
 st.markdown("##### *YOLOv8 Derin Öğrenme Modeli ile Mikroskobik Üretim Hatalarının Gerçek Zamanlı Analizi*")
 st.write("---")
 
-# İngilizce sınıfları Türkçeye ve açıklamalarına eşleyen sözlükümüz
+
 HASAR_SOZLUGU = {
     "missing_hole": {"tr": "Eksik Delik (Missing Hole)", "desc": "PCB üzerinde bulunması gereken montaj veya yol deliğinin delinmediğini gösterir."},
     "mouse_bite": {"tr": "Bakır Kemirmesi (Mouse Bite)", "desc": "Yolların kenarında bakır kaybı nedeniyle oluşan ve akımı daraltan oyuk hatasıdır."},
@@ -46,7 +46,7 @@ HASAR_SOZLUGU = {
     "spurious_copper": {"tr": "Gereksiz Bakır (Spurious Copper)", "desc": "PCB yüzeyinde kalmaması gereken, kısa devre riski oluşturan başıboş bakır kalıntılarıdır."}
 }
 
-# Modelimizi yüklüyoruz
+# Model
 @st.cache_resource
 def load_model():
     return YOLO("best.pt")
@@ -56,7 +56,7 @@ try:
 except Exception as e:
     st.error(f"Model yüklenirken bir hata oluştu: {e}")
 
-# Fotoğraf yükleme alanı
+
 uploaded_file = st.file_uploader("Analiz edilecek PCB görselini buraya sürükleyin veya seçin...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
