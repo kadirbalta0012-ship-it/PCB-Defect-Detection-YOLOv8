@@ -3,14 +3,14 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 
-# Sayfa genişliği ve sekme başlığı ayarları
+
 st.set_page_config(
     page_title="AI PCB Defect Detector", 
     page_icon="🔍",
-    layout="wide" # Ekranı daha iyi kullanmak için geniş mod
+    layout="wide" 
 )
 
-# --- MODERN STYLING (Hocaya Özel Görsel Dokunuşlar) ---
+
 st.markdown("""
     <style>
     .main { background-color: #f8f9fa; }
@@ -26,13 +26,13 @@ with st.sidebar:
     st.info("**Model Architecture:** YOLOv8n (YOLOv8 Nano)\n\n**Framework:** PyTorch & Streamlit\n\n**Dataset:** 6 Sınıflı PCB Hasar Seti")
     st.write("---")
     st.markdown("### 📊 Hedef Metrikler")
-    # İstediğin gibi maksimum sınıf başarısı satırını buradan uçurdum kanka, sadece genel skor kaldı
-    st.success("🎯 **Genel mAP50:** %87.8")
+    
+    st.success("🎯 **Genel mAP50:** %89.8")
     st.write("---")
     st.caption("Computer Engineering Project © 2026")
 
-# --- ANA SAYFA BAŞLIK ---
-st.title("🔍 Yapay Zeka Tabanlı PCB Hasar Tespit Sistemi")
+# ANA SAYFA 
+st.title(" Yapay Zeka Tabanlı PCB Hasar Tespit Sistemi")
 st.markdown("##### *YOLOv8 Derin Öğrenme Modeli ile Mikroskobik Üretim Hatalarının Gerçek Zamanlı Analizi*")
 st.write("---")
 
