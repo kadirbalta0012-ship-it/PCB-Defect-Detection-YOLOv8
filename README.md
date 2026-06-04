@@ -11,6 +11,6 @@ Sistemin başarıyla tespit ettiği örnek hasarlı PCB test görselleri aşağ�
 
 | Orijinal Hasarlı Kart | Yapay Zeka Hasar Tespiti (Prediction) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/foto1.jpg" width="350"> | <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/foto1_pred.jpg" width="350"> |
+| <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/testpcb.jpg" width="350"> | <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/foto1_pred.jpg" width="350"> |
 
 > ⚠️ **Not:** Yukarıdaki tablonun çalışması için yüklediğin fotoğrafların isimlerini `foto1.jpg` ve `foto1_pred.jpg` şeklinde değiştirebilir veya koddaki isimleri kendi yüklediğin fotoğrafların tam isimleriyle değiştirebilirsin kanka.
