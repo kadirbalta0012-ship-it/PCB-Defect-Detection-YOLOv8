@@ -6,7 +6,7 @@ Sistemin test edilmesi için depoya yüklenen hasarlı PCB fotoğrafları aşağ
 ## 📸 Örnek Test Görselleri Galerisi
 Sistemin test edilmesi için depoya yüklenen güncel PCB fotoğrafları aşağıda listelenmiştir:
 
-| Test Görseli(hasarsız) 1 | Test Görseli(hasarsız) 2 | Test Görseli 3 |
+| Test Görseli(Hasarsız) 1 | Test Görseli(Hasarsız) 2 | Test Görseli 3 |
 | :---: | :---: | :---: |
 | <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/test.jpg" width="240"> | <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/test2%20(2).jpg" width="240"> | <img src="https://raw.githubusercontent.com/kadirbalta0012-ship-it/PCB-Defect-Detection-YOLOv8/main/test3%20(2).jpg" width="240"> |
 
