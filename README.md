@@ -7,7 +7,7 @@ Bu proje, Baskılı Devre Kartları (PCB) üzerindeki üretim hatalarını (Aç�
 * **Model Doğruluk Oranı (mAP50):** %89.50 (50 Epoch Eğitim Sonucu)
 
 ## 📸 Örnek Test Görselleri Galerisi
-Sistemin test edilmesi için depoya yüklenen hasarlı PCB fotoğrafları aşağıda 3x2 matris şeklinde listelenmiştir:
+Sistemin test edilmesi için depoya yüklenen hasarlı PCB fotoğrafları aşağıda listelenmiştir:
 
 | Test Görseli 1 (Açık Devre) | Test Görseli 2 (Bakır Oyuğu) | Test Görseli 3 (Açık Devre) |
 | :---: | :---: | :---: |
