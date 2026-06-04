@@ -1,7 +1,7 @@
-# TEST İÇİN HASARLI PCB FOTAĞRRAFLARI
+# TEST İÇİN HASARLI-HASARSIZ PCB FOTAĞRRAFLARI
 
 ## 📸 Örnek Test Görselleri Galerisi
-Sistemin test edilmesi için depoya yüklenen hasarlı PCB fotoğrafları aşağıda listelenmiştir:
+Sistemin test edilmesi için depoya yüklenen hasarlı-hasarsız PCB fotoğrafları aşağıda listelenmiştir:
 
 ## 📸 Örnek Test Görselleri Galerisi
 Sistemin test edilmesi için depoya yüklenen güncel PCB fotoğrafları aşağıda listelenmiştir:
