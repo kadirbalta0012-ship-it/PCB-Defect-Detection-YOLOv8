@@ -4,7 +4,7 @@
 Sistemin test edilmesi için depoya yüklenen hasarlı PCB fotoğrafları aşağıda listelenmiştir:
 
 ## 📸 Örnek Test Görselleri Galerisi
-Sistemin test edilmesi için depoya yüklenen güncel PCB fotoğrafları aşağıda 3x2 matris şeklinde listelenmiştir:
+Sistemin test edilmesi için depoya yüklenen güncel PCB fotoğrafları aşağıda listelenmiştir:
 
 | Test Görseli 1 | Test Görseli 2 | Test Görseli 3 |
 | :---: | :---: | :---: |
