@@ -62,7 +62,7 @@ uploaded_file = st.file_uploader("Analiz edilecek PCB görselini buraya sürükl
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     
-    # İki sütun düzeni
+
     col1, col2 = st.columns(2)
     
     with col1:
@@ -91,7 +91,7 @@ if uploaded_file is not None:
     else:
         class_names = results[0].names
         
-        # Kart tasarımıyla basıyoruz
+       
         for box in boxes:
             cls_id = int(box.cls[0])
             conf_score = float(box.conf[0]) * 100
