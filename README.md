@@ -3,7 +3,7 @@
 Bu proje, Baskılı Devre Kartları (PCB) üzerindeki üretim hatalarını (Açık devre, kısa devre, eksik delik, bakır kemirmesi vb.) YOLOv8 nesne tespiti mimarisi kullanarak otomatik olarak tespit eder.
 
 ## 🚀 Proje Bileşenleri
-* **Canlı Web Sitesi (Streamlit):** [Buraya Streamlit Canlı İnternet Linkini Yapıştır Kanka]
+* **Canlı Web Sitesi (Streamlit):** [https://pcb-defect-detection-yolov8-dwarvklhgvgy5agzt4ffjo.streamlit.app/]
 * **Model Doğruluk Oranı (mAP50):** %89.50 (50 Epoch Eğitim Sonucu)
 
 ## 📸 Örnek Test ve Tahmin Görseli
