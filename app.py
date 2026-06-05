@@ -5,14 +5,14 @@ import numpy as np
 import urllib.request
 import os
 
-# Page configuration
+
 st.set_page_config(
     page_title="AI PCB Defect Detector", 
     page_icon="🔍",
     layout="wide"
 )
 
-# --- MODERN STYLING ---
+
 st.markdown("""
     <style>
     .main { background-color: #f8f9fa; }
@@ -22,7 +22,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- SIDEBAR (System Information) ---
+
 with st.sidebar:
     st.markdown("## 🛠️ Sistem Bilgileri")
     st.info("**Model Architecture:** YOLOv8n (YOLOv8 Nano)\n\n**Framework:** PyTorch & Streamlit\n\n**Dataset:** 6 Sınıflı PCB Hasar Seti")
@@ -32,12 +32,12 @@ with st.sidebar:
     st.write("---")
     st.caption("Computer Engineering Project © 2026")
 
-# --- MAIN PAGE TITLE ---
+
 st.title("🔍 Yapay Zeka Tabanlı PCB Hasar Tespit Sistemi")
 st.markdown("##### *YOLOv8 Derin Öğrenme Modeli ile Mikroskobik Üretim Hatalarının Gerçek Zamanlı Analizi*")
 st.write("---")
 
-# Defect dictionary for English to Turkish mapping and descriptions
+
 HASAR_SOZLUGU = {
     "missing_hole": {"tr": "Eksik Delik (Missing Hole)", "desc": "PCB üzerinde bulunması gereken montaj veya yol deliğinin delinmediğini gösterir."},
     "mouse_bite": {"tr": "Bakır Kemirmesi (Mouse Bite)", "desc": "Yolların kenarında bakır kaybı nedeniyle oluşan ve akımı daraltan oyuk hatasıdır."},
@@ -47,7 +47,7 @@ HASAR_SOZLUGU = {
     "spurious_copper": {"tr": "Gereksiz Bakır (Spurious Copper)", "desc": "PCB yüzeyinde kalmaması gereken, kısa devre riski oluşturan başıboş bakır kalıntılarıdır."}
 }
 
-# Cached Model Loader with automated clean download from GitHub Releases
+
 @st.cache_resource
 def load_model():
     model_path = "best_clean.pt"
@@ -57,7 +57,7 @@ def load_model():
             urllib.request.urlretrieve(url, model_path)
     return YOLO(model_path)
 
-# Initialize Model
+
 model_loaded = False
 try:
     model = load_model()
